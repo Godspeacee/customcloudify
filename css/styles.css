@@ -66,7 +66,7 @@ a{
     font-weight: bold;
 }
 .link-arrow::after{
-    content: "-->";
+    content:'-->';
     margin-left: 5px;
     transition-property: margin 0.15s;
 }
@@ -713,4 +713,21 @@ a{
 .block--plans .card{
     max-width: 500px;
     margin: 0 auto;
+}
+
+/* feature */
+.feature__heading{
+    margin: 1rem 0;
+}
+.feature:first-of-type{
+    margin: 6rem;
+}
+
+.feature{
+    gap: 4rem 2rem;
+    margin:12rem 0 ;
+}
+
+.feature__image{
+    width: 100%;
 }
